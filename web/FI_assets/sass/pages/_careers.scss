@@ -1,0 +1,65 @@
+.careers {
+    background: $fi-light-grey;
+    display: flex;
+}
+
+.career-work {
+    background: $fi-dark !important;
+    width: 50%;
+}
+
+.career-slide {
+    width: 50%;
+    position: relative;
+    overflow-x: scroll;
+    display: inline-block;
+    background: url(../../images/fi-careers-img.svg) no-repeat;
+    background-size: cover;
+
+    .slide {
+        width: 100%;
+        background: $fi-blue;
+        display: inline-block;
+        height: 100%;
+        float: left;
+
+        &.alt {
+            background: red;
+        }
+    }
+
+    .slide-nav {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        a {
+            padding: 20px;
+            background: $fi-blue;
+            margin-left: 5px;
+        }
+    }
+
+}
+
+
+.become-ninja {
+    background: $fi-light-grey;
+    display: flex;
+
+    .button {
+        margin: auto;
+    }
+
+    .become-content {
+        border-radius: 5px;
+        padding: 50px;
+        background-color: white;
+    }
+
+    .become {
+        width: 70%;
+    }
+
+
+}

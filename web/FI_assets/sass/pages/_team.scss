@@ -1,0 +1,60 @@
+.team {
+  background: $fi-light-grey;
+  padding: 100px 0;
+
+  .team-list {
+    flex-wrap: wrap;
+
+    .member {
+      width: 290px;
+      height: 290px;
+      background: white;
+      border-radius: 5px;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: space-between;
+      margin-top: 2 0px;
+
+      &:hover {
+        background: $fi-dark;
+
+        .image {
+          transform: scale(0.9);
+          background-size: 120%;
+        }
+
+        .info {
+          .name {
+            color: white;
+          }
+        }
+      }
+
+      .image {
+        align-self: center;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        display: block;
+        background: url(../../images/team/tomisin.jpg) no-repeat;
+        background-size: 100%;
+        background-position: top center;
+        transition: all 200ms ease-in-out;
+      }
+
+      .info {
+        .name {
+          display: block;
+          color: $fi-dark;
+          font-weight: bold;
+        }
+
+        .role {
+          color: $fi-blue;
+        }
+      }
+    }
+  }
+}

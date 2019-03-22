@@ -1,0 +1,20 @@
+{% for entry in craft.entries.section('homepagePanels').type('homepageLogosPanel') %}
+
+{% if loop.index is not divisible by(2) %}
+<div class="clients">
+{% else %}
+<div class="investors">
+{% endif %}
+    <div class="content">
+        <h2 class="alt margin-50">{{entry.title}}</h2>
+        <p class="alt">
+        {{entry.logosText}}
+        </p>
+        <div class="client-logos margin-50">
+        {% for asset in entry.logo1 %}
+            <img src="{{asset.url}}" alt="{{ asset.title }}" />
+        {% endfor %}
+        </div>
+    </div>
+</div>
+{% endfor%}

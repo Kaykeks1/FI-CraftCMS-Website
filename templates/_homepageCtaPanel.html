@@ -1,0 +1,10 @@
+{% for entry in craft.entries.section('homepagePanels').type('homepageCtaPanel') %}
+    {% for asset in entry.ctaIcon %}
+        <img src="{{asset.url}}" class="margin-20" alt="{{asset.title}}" />
+    {% endfor %}
+    <h2 class="no-underline">{{entry.title}}</h2>
+    <p class="margin-20">
+      {{entry.body}}
+    </p>
+    <a href="{{entry.linkUrl}}" class="button">{{entry.linkLabel}}</a>
+{% endfor %}

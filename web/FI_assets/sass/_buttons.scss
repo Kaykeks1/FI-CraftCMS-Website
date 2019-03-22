@@ -1,0 +1,88 @@
+.button {
+  font-family: "fi-font-bold";
+  background: $fi-blue;
+  padding: 0 20px;
+  border-radius: 5px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  line-height: 40px;
+  position: relative;
+  transition: all 200ms ease-in-out;
+
+  &:hover {
+    transform: translateY(-2px);
+    background: darken($fi-blue, 5%);
+    color: white !important;
+  }
+
+  &.alt {
+    background: white;
+    color: $fi-blue !important;
+
+    &:hover {
+      background: $fi-blue;
+      color: white !important;
+    }
+  }
+
+  &.clear {
+    padding: 0;
+    color: $fi-blue;
+    background: none !important;
+
+    &.alt {
+      color: white !important;
+
+      &::after {
+        background: white;
+      }
+
+      &::before {
+        background: white;
+      }
+    }
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 3px;
+      background: $fi-blue;
+      display: inline-block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: scaleX(0);
+      transform-origin: right center;
+      transition: all 300ms ease-in-out 100ms;
+    }
+
+    &::after {
+      content: "";
+      width: 100%;
+      height: 3px;
+      background: $fi-blue;
+      display: inline-block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: all 200ms ease-in-out;
+    }
+
+    &:hover {
+      transform: none;
+
+      &::after {
+        width: 0 !important;
+      }
+
+      &::before {
+        transform: scaleX(1);
+      }
+    }
+  }
+}

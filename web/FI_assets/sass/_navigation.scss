@@ -1,0 +1,28 @@
+.navigation {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    align-self: center;
+  }
+  li {
+    padding: 0 20px;
+    display: inline-block;
+  }
+
+  .menu a {
+    text-transform: uppercase;
+    font-family: "fi-font-bold";
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    transition: all 150ms ease-out;
+    &.alt{
+      color: $fi-dark-blue;
+    }
+    &:hover {
+      color: $fi-blue;
+    }
+  }
+
+}

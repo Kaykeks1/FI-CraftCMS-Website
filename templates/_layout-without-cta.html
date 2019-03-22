@@ -1,0 +1,77 @@
+{% block top_content %}
+{% endblock %}
+
+    <section class="hero alt">
+      <div class="container">
+          <nav class="navigation">
+              <a href="index.html" class="logo">
+                  <img src="/images/fi-logo.svg" alt="" />
+              </a>
+
+              <ul class="menu">
+                  <li>
+                      <a href="products.html" class="alt">What you can do</a>
+                  </li>
+                  <li>
+                      <a href="#" class="alt">Company</a>
+                  </li>
+                  <li>
+                      <a href="blog.html" class="alt">Blog</a>
+                  </li>
+
+                  <li><a href="request-demo.html" class="button">Request Demo</a></li>
+              </ul>
+          </nav>
+          <div class="banner flex">
+              <div class="banner-content width-50">
+              {% block hero %}
+              {% endblock %}
+            </div>
+          </div>
+      </div>
+  </section>
+
+  {% block bottom_content %}
+  {% endblock %}
+
+    <footer class="footer">
+    <div class="container flex">
+      <div><img src="/images/fi-logo.svg" class="footer-logo" alt="" /></div>
+
+      <div class="footer-links">
+        <ul>
+          <h3>About</h3>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="team.html">Meet the Ninjas</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+        <ul>
+          <h3>What you can do</h3>
+          <li><a href="#">Market Insight</a></li>
+          <li><a href="#">Delivery Insight</a></li>
+          <li><a href="#">Order Insight</a></li>
+        </ul>
+        <ul>
+          <h3>Contact Us</h3>
+          <p>
+            229, Herbert Macaulay Road <br />
+            Yaba, Lagos <br />
+            +2348143561655 <br />
+            sales@fieldinsight.co
+          </p>
+        </ul>
+        <ul>
+          <h3>SOCIAL</h3>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Our Story</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+    <!-- <script src="/js/bodymovin.js"></script>
+  <script src="/js/main.js"></script> -->
+    {% includeJsFile "FI_assets/js/bodymovin.js" %} {% includeJsFile
+    "FI_assets/js/main.js" %}
+  </body>
+</html>

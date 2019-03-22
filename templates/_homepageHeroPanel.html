@@ -1,0 +1,12 @@
+{% for entry in craft.entries.section('homepagePanels').type('homepageHeroPanel') %}
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="alt">{{ entry.title }}</h1>
+          <p class="margin-20 alt">
+            {{ entry.homepageSubtext }}
+          </p>
+          <a href="#" class="button clear alt">learn more</a>
+        </div>
+        <div id="hero-animation" class="hero-animation"></div>
+      </div>
+{% endfor %}

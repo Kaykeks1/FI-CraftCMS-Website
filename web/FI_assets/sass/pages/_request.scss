@@ -1,0 +1,15 @@
+.job-description {
+  padding: 50px 0;
+  .description {
+    padding: 40px;
+  }
+  .request-form {
+    padding: 40px;
+  }
+  label {
+    display: block;
+    font-size: 14px;
+    color: $fi-dark;
+    padding-top: 20px;
+  }
+}

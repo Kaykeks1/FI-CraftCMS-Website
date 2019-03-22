@@ -1,0 +1,13 @@
+<div class="container flex">
+{% for entry in craft.entries.section('homepagePanels').type('homepageUspPanel') %}
+<div class="usp-item">
+    {% for asset in entry.uspIcon %}
+        <img src="{{ asset.url }}" alt="{{ asset.title }}" class="usp-icon" />
+    {% endfor %}
+    <h2>{{entry.title}}</h2>
+    <p>
+      {{entry.homepageUspText}}
+    </p>
+  </div>
+{% endfor %}
+</div>

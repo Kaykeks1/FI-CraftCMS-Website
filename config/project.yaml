@@ -1,0 +1,893 @@
+dateModified: 1552912117
+email:
+  fromEmail: kayuskeks@gmail.com
+  fromName: craft-test.dev
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  0b9e987f-e752-4085-96eb-b8f1e9db4abb:
+    name: homepage
+  82f9b471-9f56-4f1f-b8b5-2afec77fd2f5:
+    name: 'Home Panels'
+  a6d142f6-af22-405d-8e19-184c9528f952:
+    name: Common
+fields:
+  003711a7-285b-4ccf-bc48-24cdb224e558:
+    contentColumnType: text
+    fieldGroup: 0b9e987f-e752-4085-96eb-b8f1e9db4abb
+    handle: productText
+    instructions: ''
+    name: 'Product Text'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  181960a8-e6ae-4d29-9cad-6e9b85533be3:
+    contentColumnType: string
+    fieldGroup: a6d142f6-af22-405d-8e19-184c9528f952
+    handle: ctaIcon
+    instructions: ''
+    name: 'CTA icon'
+    searchable: true
+    settings:
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: ''
+      restrictFiles: ''
+      selectionLabel: ''
+      singleUploadLocationSource: 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      targetSiteId: null
+      useSingleFolder: ''
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  2083982f-4ccc-434f-bbf3-cbba34462e44:
+    contentColumnType: text
+    fieldGroup: 0b9e987f-e752-4085-96eb-b8f1e9db4abb
+    handle: logosText
+    instructions: ''
+    name: 'Logos Text'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  3fc94d3a-be38-43b9-a643-0a02adbc8bb3:
+    name: Body
+    handle: body
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: ''
+      multiline: '1'
+      initialRows: '4'
+      charLimit: ''
+      columnType: text
+    contentColumnType: text
+    fieldGroup: a6d142f6-af22-405d-8e19-184c9528f952
+  452f6f07-239f-4067-8093-909a3b4d9cb4:
+    contentColumnType: text
+    fieldGroup: 0b9e987f-e752-4085-96eb-b8f1e9db4abb
+    handle: linkLabel
+    instructions: 'A short label for the link'
+    name: 'Link Label'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  585a7608-64ba-4ffe-b5fb-510c3b807146:
+    contentColumnType: text
+    fieldGroup: 0b9e987f-e752-4085-96eb-b8f1e9db4abb
+    handle: homepageUspText
+    instructions: 'For the Data Section in the homepage'
+    name: 'Homepage USP Text'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  624840b4-0512-4c5b-b033-ad257aedaf52:
+    contentColumnType: text
+    fieldGroup: 0b9e987f-e752-4085-96eb-b8f1e9db4abb
+    handle: homepageVisibilityText
+    instructions: 'For the Visibility Section in the homepage'
+    name: 'Homepage Visibility Text'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  650e4e36-0537-4931-8522-9de2cd7c3548:
+    contentColumnType: text
+    fieldGroup: 0b9e987f-e752-4085-96eb-b8f1e9db4abb
+    handle: homepageControlText
+    instructions: 'For the Control Section in the homepage'
+    name: 'Homepage Control Text'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6dda586b-b352-43be-9ec3-cf29f4887793:
+    contentColumnType: text
+    fieldGroup: 0b9e987f-e752-4085-96eb-b8f1e9db4abb
+    handle: homepageSubtext
+    instructions: 'Make it short. Displayed under homepage''s main text'
+    name: 'Homepage Subtext'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b17b8bb4-3ac4-44b6-b2e3-7178b5d0b2f9:
+    contentColumnType: string
+    fieldGroup: a6d142f6-af22-405d-8e19-184c9528f952
+    handle: uspIcon
+    instructions: ''
+    name: 'USP Icon'
+    searchable: true
+    settings:
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: ''
+      restrictFiles: ''
+      selectionLabel: ''
+      singleUploadLocationSource: 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      targetSiteId: null
+      useSingleFolder: ''
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  bdbd4a1c-aa81-4b86-989d-df03a1ac7b82:
+    contentColumnType: text
+    fieldGroup: 82f9b471-9f56-4f1f-b8b5-2afec77fd2f5
+    handle: sub
+    instructions: ''
+    name: Sub
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c62bc7bd-128e-49a1-b9d8-b7f8f50ba46d:
+    contentColumnType: text
+    fieldGroup: 0b9e987f-e752-4085-96eb-b8f1e9db4abb
+    handle: homepageMainText
+    instructions: 'This would be the main text displayed on the homepage'
+    name: 'Homepage Main Text'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: 'Homepage Main Text '
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c7a74855-56aa-416a-8e74-f67b31004266:
+    contentColumnType: text
+    fieldGroup: 0b9e987f-e752-4085-96eb-b8f1e9db4abb
+    handle: productFeatures
+    instructions: ''
+    name: 'Product Features'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d8b9452a-1800-445e-a39a-6c5543454b1e:
+    contentColumnType: string
+    fieldGroup: 0b9e987f-e752-4085-96eb-b8f1e9db4abb
+    handle: logo1
+    instructions: ''
+    name: 'Logo 1'
+    searchable: true
+    settings:
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      defaultUploadLocationSubpath: ''
+      limit: '5'
+      localizeRelations: ''
+      restrictFiles: ''
+      selectionLabel: ''
+      singleUploadLocationSource: 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      targetSiteId: null
+      useSingleFolder: ''
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  e8095eb0-cf40-4f7b-b89c-25921d6b4386:
+    contentColumnType: string
+    fieldGroup: a6d142f6-af22-405d-8e19-184c9528f952
+    handle: visibilityIcon
+    instructions: 'Select Visibility Icon '
+    name: 'Visibility Icon'
+    searchable: true
+    settings:
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: ''
+      restrictFiles: ''
+      selectionLabel: ''
+      singleUploadLocationSource: 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      targetSiteId: null
+      useSingleFolder: ''
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  e80bc519-3391-4de1-a0c5-647ec4cf44c4:
+    contentColumnType: text
+    fieldGroup: 0b9e987f-e752-4085-96eb-b8f1e9db4abb
+    handle: linkUrl
+    instructions: ''
+    name: 'Link URL'
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  13e4e8e3-1c23-4432-bfd0-9ed7e84a6b3b:
+    name: 'Header Icon'
+    handle: headerIcon
+    instructions: ''
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: craft\fields\Assets
+    settings:
+      useSingleFolder: ''
+      defaultUploadLocationSource: 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      defaultUploadLocationSubpath: ''
+      singleUploadLocationSource: 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      singleUploadLocationSubpath: ''
+      restrictFiles: ''
+      allowedKinds: null
+      sources:
+        - 'volume:39a744da-b8ab-4152-b588-78022dcd4d17'
+      source: null
+      targetSiteId: null
+      viewMode: large
+      limit: '1'
+      selectionLabel: ''
+      localizeRelations: ''
+    contentColumnType: string
+    fieldGroup: a6d142f6-af22-405d-8e19-184c9528f952
+  71372655-4712-4415-8186-611859664e07:
+    name: 'Body 2'
+    handle: body2
+    instructions: 'Enter Text in paragraphs'
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\ckeditor\Field
+    settings:
+      purifierConfig: ''
+      purifyHtml: '1'
+      columnType: text
+    contentColumnType: text
+    fieldGroup: a6d142f6-af22-405d-8e19-184c9528f952
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+sections:
+  622f4106-8d53-426c-8093-1118141e74b4:
+    name: Homepage
+    handle: homepage
+    type: single
+    enableVersioning: true
+    propagateEntries: true
+    siteSettings:
+      fb99ac7a-8307-4ef0-8eb0-bf2e3447eef7:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: __home__
+        template: fi-website\index
+    entryTypes:
+      fc85b319-92ba-4678-b0e9-5d872fe0eb36:
+        fieldLayouts:
+          0c5cf79e-7edd-44a6-b8c3-07238541db5e:
+            tabs:
+              -
+                fields:
+                  585a7608-64ba-4ffe-b5fb-510c3b807146:
+                    required: false
+                    sortOrder: 4
+                  624840b4-0512-4c5b-b033-ad257aedaf52:
+                    required: false
+                    sortOrder: 7
+                  650e4e36-0537-4931-8522-9de2cd7c3548:
+                    required: false
+                    sortOrder: 3
+                  6dda586b-b352-43be-9ec3-cf29f4887793:
+                    required: false
+                    sortOrder: 6
+                  b17b8bb4-3ac4-44b6-b2e3-7178b5d0b2f9:
+                    required: false
+                    sortOrder: 1
+                  c62bc7bd-128e-49a1-b9d8-b7f8f50ba46d:
+                    required: false
+                    sortOrder: 5
+                  e8095eb0-cf40-4f7b-b89c-25921d6b4386:
+                    required: false
+                    sortOrder: 2
+                name: homepage
+                sortOrder: 1
+              -
+                fields:
+                  3fc94d3a-be38-43b9-a643-0a02adbc8bb3:
+                    required: false
+                    sortOrder: 1
+                name: Common
+                sortOrder: 2
+        handle: homepage
+        hasTitleField: false
+        name: Homepage
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: ''
+  b71015e8-a144-447e-bd03-da3788143865:
+    name: 'Homepage Panels'
+    handle: homepagePanels
+    type: structure
+    enableVersioning: true
+    propagateEntries: true
+    siteSettings:
+      fb99ac7a-8307-4ef0-8eb0-bf2e3447eef7:
+        enabledByDefault: true
+        hasUrls: false
+        uriFormat: null
+        template: null
+    structure:
+      uid: 9547c7d0-ed8f-4ac6-a887-888f95eb4d0b
+      maxLevels: ''
+    entryTypes:
+      15790c5d-e5b2-4bd3-b0da-adb1576edd11:
+        fieldLayouts:
+          a08d6cc5-86c4-4eed-a74e-d8bef612d718:
+            tabs:
+              -
+                fields:
+                  003711a7-285b-4ccf-bc48-24cdb224e558:
+                    required: false
+                    sortOrder: 1
+                  c7a74855-56aa-416a-8e74-f67b31004266:
+                    required: false
+                    sortOrder: 2
+                name: 'Homepage Product Panel'
+                sortOrder: 1
+        handle: homepageProductPanel
+        hasTitleField: true
+        name: 'Homepage Product Panel'
+        sortOrder: 3
+        titleFormat: ''
+        titleLabel: Title
+      48b64bc2-1284-4aaa-99ca-7c4be31180ae:
+        fieldLayouts:
+          03923988-119d-4875-a2f4-f06b163e3c4d:
+            tabs:
+              -
+                fields:
+                  585a7608-64ba-4ffe-b5fb-510c3b807146:
+                    required: false
+                    sortOrder: 2
+                  b17b8bb4-3ac4-44b6-b2e3-7178b5d0b2f9:
+                    required: false
+                    sortOrder: 1
+                name: 'Homepage USP Panel'
+                sortOrder: 1
+        handle: homepageUspPanel
+        hasTitleField: true
+        name: 'Homepage USP Panel'
+        sortOrder: 2
+        titleFormat: ''
+        titleLabel: Title
+      5df4175d-fe8f-45cc-ae5d-6b778319e262:
+        fieldLayouts:
+          a1a15e65-d688-4d8f-9624-cb795f3950e0:
+            tabs:
+              -
+                fields:
+                  2083982f-4ccc-434f-bbf3-cbba34462e44:
+                    required: false
+                    sortOrder: 1
+                  d8b9452a-1800-445e-a39a-6c5543454b1e:
+                    required: false
+                    sortOrder: 2
+                name: 'Homepage Logos Panel'
+                sortOrder: 1
+        handle: homepageLogosPanel
+        hasTitleField: true
+        name: 'Homepage Logos Panel'
+        sortOrder: 4
+        titleFormat: ''
+        titleLabel: Title
+      616eb843-c3ba-40a2-bb68-acfe701770bf:
+        fieldLayouts:
+          5e0c993c-175a-4464-9289-16d6ba985c26:
+            tabs:
+              -
+                fields:
+                  181960a8-e6ae-4d29-9cad-6e9b85533be3:
+                    required: false
+                    sortOrder: 1
+                  3fc94d3a-be38-43b9-a643-0a02adbc8bb3:
+                    required: false
+                    sortOrder: 2
+                  452f6f07-239f-4067-8093-909a3b4d9cb4:
+                    required: false
+                    sortOrder: 3
+                  e80bc519-3391-4de1-a0c5-647ec4cf44c4:
+                    required: false
+                    sortOrder: 4
+                name: 'Homepage CTA Panel'
+                sortOrder: 1
+        handle: homepageCtaPanel
+        hasTitleField: true
+        name: 'Homepage CTA Panel'
+        sortOrder: 5
+        titleFormat: ''
+        titleLabel: Title
+      da07b81f-14f5-4870-a96d-6d32e0e88a99:
+        fieldLayouts:
+          1338a15c-2ffb-4e0a-bba1-9472d58a89a7:
+            tabs:
+              -
+                fields:
+                  6dda586b-b352-43be-9ec3-cf29f4887793:
+                    required: false
+                    sortOrder: 1
+                name: 'Homepage Hero Panel'
+                sortOrder: 1
+        handle: homepageHeroPanel
+        hasTitleField: true
+        name: 'Homepage Hero Panel'
+        sortOrder: 1
+        titleFormat: ''
+        titleLabel: Title
+  b941e7dd-723c-41ec-87f2-a5566680adfe:
+    name: 'Products Page Panels'
+    handle: productsPagePanels
+    type: structure
+    enableVersioning: true
+    propagateEntries: true
+    siteSettings:
+      fb99ac7a-8307-4ef0-8eb0-bf2e3447eef7:
+        enabledByDefault: true
+        hasUrls: false
+        uriFormat: null
+        template: null
+    structure:
+      uid: e4bd877f-d598-491e-95a8-f80f19324b56
+      maxLevels: ''
+    entryTypes:
+      f4640da0-0d74-4d93-9202-35fa706eefb9:
+        name: 'Products Page Hero'
+        handle: productsPageHero
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: ''
+        sortOrder: 1
+        fieldLayouts:
+          37c9dc0c-7f98-4de2-836f-2850620fbf3e:
+            tabs:
+              -
+                name: 'Products Page Hero'
+                sortOrder: 1
+                fields:
+                  13e4e8e3-1c23-4432-bfd0-9ed7e84a6b3b:
+                    required: false
+                    sortOrder: 1
+                  3fc94d3a-be38-43b9-a643-0a02adbc8bb3:
+                    required: false
+                    sortOrder: 2
+      005a31a4-a3dc-4722-8b0b-1c7a697168d3:
+        name: 'Products Page Products'
+        handle: productsPageProducts
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: ''
+        sortOrder: 2
+        fieldLayouts:
+          42e41114-d6e7-4fda-ba91-f2297df50b49:
+            tabs:
+              -
+                name: 'Products Page Products'
+                sortOrder: 1
+                fields:
+                  003711a7-285b-4ccf-bc48-24cdb224e558:
+                    required: false
+                    sortOrder: 1
+                  c7a74855-56aa-416a-8e74-f67b31004266:
+                    required: false
+                    sortOrder: 2
+  bf90d861-e25d-4db3-88f2-230bd75beecd:
+    name: Products
+    handle: products
+    type: single
+    enableVersioning: true
+    propagateEntries: true
+    siteSettings:
+      fb99ac7a-8307-4ef0-8eb0-bf2e3447eef7:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: products.html
+        template: fi-website\products
+    entryTypes:
+      b407ae80-73c9-4b55-a868-1916cd908f69:
+        fieldLayouts:
+          aa679ec9-330e-4190-b9e8-5a437cc72f7f:
+            tabs:
+              -
+                fields:
+                  3fc94d3a-be38-43b9-a643-0a02adbc8bb3:
+                    required: '0'
+                    sortOrder: '1'
+                name: Common
+                sortOrder: '1'
+        handle: products
+        hasTitleField: '0'
+        name: Products
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: ''
+  f6fdab93-3d81-4b14-822a-183b079d421f:
+    name: Careers
+    handle: careers
+    type: single
+    enableVersioning: true
+    propagateEntries: true
+    siteSettings:
+      fb99ac7a-8307-4ef0-8eb0-bf2e3447eef7:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: careers.html
+        template: fi-website\careers
+    entryTypes:
+      b30c1da2-0eaf-4424-a8f7-223d909603b2:
+        name: Careers
+        handle: contact
+        hasTitleField: '0'
+        titleLabel: ''
+        titleFormat: '{section.name|raw}'
+        sortOrder: 1
+        fieldLayouts:
+          479f6701-0b01-4939-9d9f-4854790af3db:
+            tabs:
+              -
+                name: Common
+                sortOrder: '1'
+                fields:
+                  3fc94d3a-be38-43b9-a643-0a02adbc8bb3:
+                    required: '0'
+                    sortOrder: '1'
+  433389ec-0dac-43da-8726-5e115eee9ba6:
+    name: 'Careers Page Panels'
+    handle: careersPagePanels
+    type: structure
+    enableVersioning: true
+    propagateEntries: true
+    siteSettings:
+      fb99ac7a-8307-4ef0-8eb0-bf2e3447eef7:
+        enabledByDefault: true
+        hasUrls: false
+        uriFormat: null
+        template: null
+    structure:
+      uid: d646d5f3-280d-495f-a314-4d18c0e4e241
+      maxLevels: ''
+    entryTypes:
+      0f58afba-b60d-4ae1-9e2c-e20c332f1a09:
+        name: 'Careers Page Hero'
+        handle: careersPageHero
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: ''
+        sortOrder: 1
+        fieldLayouts:
+          66922e1a-e32b-48c5-9809-65d73aba2c6f:
+            tabs:
+              -
+                name: 'Careers Page Hero'
+                sortOrder: 1
+                fields:
+                  13e4e8e3-1c23-4432-bfd0-9ed7e84a6b3b:
+                    required: false
+                    sortOrder: 1
+                  3fc94d3a-be38-43b9-a643-0a02adbc8bb3:
+                    required: false
+                    sortOrder: 2
+      948a9ea4-94a6-41d1-8776-11526a61be5f:
+        name: 'Careers Page Careers'
+        handle: careersPageCareers
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: ''
+        sortOrder: 2
+        fieldLayouts:
+          45c9bd49-e508-49f6-aba5-48c3e976cd1c:
+            tabs:
+              -
+                name: 'Careers Page Careers'
+                sortOrder: 1
+                fields:
+                  3fc94d3a-be38-43b9-a643-0a02adbc8bb3:
+                    required: false
+                    sortOrder: 1
+      e2f4cb90-5529-4a2f-8f9b-9562f7c46ee5:
+        name: 'Careers Page Become Ninja'
+        handle: careersPageBecomeNinja
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: ''
+        sortOrder: 3
+        fieldLayouts:
+          7f0310b4-ea82-4c28-989b-d5aa6e3b9e47:
+            tabs:
+              -
+                name: 'Careers Page Become Ninja'
+                sortOrder: 1
+                fields:
+                  3fc94d3a-be38-43b9-a643-0a02adbc8bb3:
+                    required: false
+                    sortOrder: 1
+                  452f6f07-239f-4067-8093-909a3b4d9cb4:
+                    required: false
+                    sortOrder: 2
+                  e80bc519-3391-4de1-a0c5-647ec4cf44c4:
+                    required: false
+                    sortOrder: 3
+  fcae5b32-57f1-4ac8-a622-fa275066c311:
+    name: 'Request Demo'
+    handle: requestDemo
+    type: single
+    enableVersioning: true
+    propagateEntries: true
+    siteSettings:
+      fb99ac7a-8307-4ef0-8eb0-bf2e3447eef7:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: request-demo1.html
+        template: fi-website\request-demo1
+    entryTypes:
+      3746a127-ed50-4851-9308-f802435d1dfd:
+        name: 'Request Demo'
+        handle: requestDemo
+        hasTitleField: false
+        titleLabel: null
+        titleFormat: '{section.name|raw}'
+        sortOrder: 1
+  1582e55c-162a-4633-8a1a-0fb67e19cb7e:
+    name: 'Request Demo Page Panels'
+    handle: requestDemoPagePanels
+    type: structure
+    enableVersioning: true
+    propagateEntries: true
+    siteSettings:
+      fb99ac7a-8307-4ef0-8eb0-bf2e3447eef7:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: '{slug}'
+        template: fi-website\request-demo
+    structure:
+      uid: 30dc8d8d-7122-4b5c-a8d1-78713783571b
+      maxLevels: ''
+    entryTypes:
+      57cc32e7-b3df-4462-947a-35cf893008c6:
+        name: 'Request Demo Page Hero'
+        handle: requestDemoPageHero
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: ''
+        sortOrder: 1
+        fieldLayouts:
+          aed2e1da-3acf-4c26-bdad-14665135593f:
+            tabs:
+              -
+                name: 'Request Demo Page Hero'
+                sortOrder: 1
+                fields:
+                  13e4e8e3-1c23-4432-bfd0-9ed7e84a6b3b:
+                    required: false
+                    sortOrder: 1
+                  3fc94d3a-be38-43b9-a643-0a02adbc8bb3:
+                    required: false
+                    sortOrder: 2
+      7e83ce7f-8cf7-4907-9a28-aa6a398ad0ab:
+        name: 'Request Demo Page Description'
+        handle: requestDemoPageDescription
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: ''
+        sortOrder: 2
+        fieldLayouts:
+          300e7a7c-c25e-4fcc-bfa3-992c9c5c329a:
+            tabs:
+              -
+                name: 'Request Demo Page Description'
+                sortOrder: 1
+                fields:
+                  3fc94d3a-be38-43b9-a643-0a02adbc8bb3:
+                    required: false
+                    sortOrder: 1
+  2f7be85b-8060-4fcb-b43f-cad408e81566:
+    name: 'Job Description'
+    handle: jobDescription
+    type: single
+    enableVersioning: true
+    propagateEntries: true
+    siteSettings:
+      fb99ac7a-8307-4ef0-8eb0-bf2e3447eef7:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: job-description.html
+        template: fi-website\job-description
+    entryTypes:
+      5ce40038-57fb-492e-a87d-903b99026fb3:
+        name: 'Job Description'
+        handle: jobDescription
+        hasTitleField: false
+        titleLabel: null
+        titleFormat: '{section.name|raw}'
+        sortOrder: 1
+  dd9536cb-79c2-429c-a885-15b8be5dff45:
+    name: 'Job Description Page Panels'
+    handle: jobDescriptionPagePanels
+    type: structure
+    enableVersioning: true
+    propagateEntries: true
+    siteSettings:
+      fb99ac7a-8307-4ef0-8eb0-bf2e3447eef7:
+        enabledByDefault: true
+        hasUrls: false
+        uriFormat: null
+        template: null
+    structure:
+      uid: 5af98076-4303-4566-b81e-83ef334f6956
+      maxLevels: ''
+    entryTypes:
+      dfac6c6d-38d7-42e6-8e8f-bd7dcf6b130e:
+        name: 'Job Description Page Panels'
+        handle: jobDescriptionPagePanels
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: null
+        sortOrder: 1
+siteGroups:
+  4f8a49d6-f96d-48fd-b99d-ce29c455ec9e:
+    name: craft-test.dev
+sites:
+  a1216d26-3274-4fc6-82bd-7c2885ac98d2:
+    baseUrl: 'http://sampletest.dev'
+    handle: sampletest
+    hasUrls: true
+    language: en-US
+    name: Sampletest
+    primary: false
+    siteGroup: 4f8a49d6-f96d-48fd-b99d-ce29c455ec9e
+    sortOrder: 2
+  fb99ac7a-8307-4ef0-8eb0-bf2e3447eef7:
+    baseUrl: 'http://crafttest.test/'
+    handle: default
+    hasUrls: true
+    language: en-US
+    name: craft-test
+    primary: true
+    siteGroup: 4f8a49d6-f96d-48fd-b99d-ce29c455ec9e
+    sortOrder: 1
+system:
+  edition: solo
+  live: true
+  name: Fieldinsight
+  schemaVersion: 3.1.25
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
+volumes:
+  39a744da-b8ab-4152-b588-78022dcd4d17:
+    handle: images
+    hasUrls: true
+    name: images
+    settings:
+      path: images/
+    sortOrder: '2'
+    type: craft\volumes\Local
+    url: //crafttest.test/images/

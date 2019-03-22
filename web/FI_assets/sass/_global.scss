@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "fi-font", Fallback, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: $fi-grey;
+
+  &.alt {
+    background-color: $fi-light-grey;
+  }
+}
+
+a {
+  color: $fi-grey;
+  text-decoration: none;
+
+  &:hover {
+    color: $fi-blue;
+  }
+}
+
+.container {
+  width: 1196px;
+  margin: 0 auto;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 45% 10% 20% 25%;
+
+  .hero-animation {
+    grid-column: 2/5;
+    grid-row-start: 1;
+  }
+
+  .hero-content {
+    grid-column: 1/3;
+    grid-row-start: 1;
+    margin-top: 100px;
+  }
+}
+
+section {
+  width: 100%;
+}
+
+.hero {
+  height: 700px;
+  background: url("../images/hero-bg.svg") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+  &.alt {
+    background: none;
+    background-color: $fi-light-grey;
+    height: auto;
+  }
+
+  &.white {
+    @extend .alt;
+    background-color: white;
+  }
+
+}
+
+.banner {
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  .banner-content {
+    margin: auto;
+    text-align: center;
+
+    &.left {
+      text-align: left;
+      margin: 0;
+    }
+  }
+
+  .form-container {
+
+    .form-input {
+      font-family: "fi-font";
+      font-size: 12px;
+      width: 50%;
+      border-radius: 5px;
+      height: 40px;
+      background-color: white;
+      border: 1px solid $fi-light-grey;
+      text-decoration: none;
+    }
+  }
+
+  img {
+    width: 80px;
+  }
+}
+
+.usp {
+  display: flex;
+  justify-content: space-between;
+
+  .usp-item {
+    width: 33%;
+    padding-right: 40px;
+  }
+
+  .usp-item:nth-child(3) {
+    padding-right: 0;
+  }
+
+  .usp-icon {
+    margin-bottom: 20px;
+  }
+}
+
+.fi-line {
+  background-color: $fi-light-grey;
+  height: 1px;
+  border: none;
+}
+
+.feed-container {
+  .feed-item {
+    width: 33%;
+    padding-right: 40px;
+    margin-top: 50px;
+  }
+}
+
+.blog-container {
+  margin-bottom: 30px !important;
+  display: flex;
+
+  .blog-line {
+    background-color: $fi-light-grey;
+    height: 3px;
+    border: none;
+  }
+
+  img {
+    width: 550px;
+    vertical-align: middle;
+  }
+
+  &.blog-main {
+    padding-left: 60px;
+    text-align: left;
+    display: inline-block;
+  }
+}
+
+.products {
+  display: flex;
+
+  .button {
+    margin-left: 40px;
+  }
+
+  .product-text .features {
+    margin-top: 20px;
+
+    .feature-item {
+      color: $fi-grey;
+      padding-bottom: 20px;
+      padding-left: 40px;
+      background: no-repeat;
+      background-image: url(../images/fi-tick.svg);
+    }
+  }
+}
+
+.logos {
+  display: flex;
+
+  .clients {
+    width: 50%;
+    background: $fi-dark;
+
+    .content {
+      width: 598px;
+      padding: 50px 50px 100px 0;
+      float: right;
+      color: $fi-dark;
+    }
+
+    .client-logos {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .investors {
+    @extend .clients;
+    background: $fi-blue;
+
+    .content {
+      float: left;
+      padding: 50px 0 100px 50px;
+    }
+  }
+}
+
+.cta {
+  padding: 100px 0;
+  background: $fi-light-grey;
+
+  .request {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.footer {
+
+  padding: 50px 0;
+  background: white;
+  border-top: 1px solid $fi-light-grey;
+
+  h3 {
+    text-align: left;
+  }
+
+  .footer-links {
+    display: flex;
+
+    ul {
+      padding-left: 50px;
+    }
+  }
+}

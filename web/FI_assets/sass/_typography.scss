@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "fi-font";
+  src: url("../fonts/GorditaRegular.otf");
+}
+
+@font-face {
+  font-family: "fi-font-bold";
+  src: url("../fonts/GorditaBold.otf");
+}
+
+h1 {
+  font-family: "fi-font-bold";
+  font-size: 48px;
+  line-height: 65px;
+  color: $fi-dark;
+
+  &.alt {
+    color: white;
+  }
+}
+
+h2 {
+  font-family: "fi-font-bold";
+  font-size: 28px;
+  line-height: 50px;
+  margin-bottom: 40px;
+  position: relative;
+  color: $fi-dark;
+
+  &.feed-text-bold {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  &.no-underline {
+    margin-bottom: 20px;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  &.alt {
+    color: white;
+
+    &::after {
+      background: white;
+    }
+  }
+
+  &::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: $fi-blue;
+    display: inline-block;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+  }
+}
+
+h3 {
+  font-family: "fi-font-bold";
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+
+  &.alt {
+    text-align: left;
+    color: $fi-dark;
+
+    &.index {
+      text-align: center;
+    }
+  }
+}
+
+
+p {
+  color: $fi-grey;
+
+  &.alt {
+    color: white;
+  }
+
+  &.line {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  &.line2 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

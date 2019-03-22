@@ -1,0 +1,23 @@
+.fi-pagination {
+  margin: auto;
+  margin-top: 50px;
+
+  a {
+    padding: 15px;
+    background: $fi-light-grey;
+    // border-radius: 30px;
+  }
+
+  a:hover {
+    background: $fi-blue;
+
+    path {
+      fill: white;
+      fill-opacity: 1.5;
+    }
+  }
+
+  span {
+    padding: 10px;
+  }
+}

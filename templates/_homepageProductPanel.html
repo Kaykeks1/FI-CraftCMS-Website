@@ -1,0 +1,21 @@
+<div class="container">
+    {% for entry in craft.entries.section('homepagePanels').type('homepageProductPanel') %}
+    <h3 class="alt index">{{entry.title}}</h3>
+    <div class="product-item flex">
+      <div class="product-image"></div>
+      <div class="product-text width-50 margin-50">
+        <p>
+          {{entry.productText}}
+        </p>
+        <ul class="features">
+            {% for feature in entry.productFeatures|trim|split('\n') %}
+            <li class="feature-item">
+                {{feature}}
+            </li>
+            {% endfor %}
+        </ul>
+        <a href="products.html" class="button clear">learn more</a>
+      </div>
+    </div>
+    {% endfor %}
+</div>

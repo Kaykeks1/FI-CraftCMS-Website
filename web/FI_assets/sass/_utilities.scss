@@ -1,0 +1,88 @@
+//todo: Remember to fix naming of utilities to be more useable.
+
+.margin-10 {
+  margin-bottom: 10px;
+}
+
+.margin-20 {
+  margin-bottom: 20px;
+}
+
+.margin-d-100 {
+  margin-bottom: 100px;
+}
+
+.margin-u-20 {
+  margin-top: 20px;
+}
+
+.margin-30 {
+  margin-bottom: 30px;
+}
+
+.margin-up-30 {
+  margin-top: 30px;
+}
+
+.margin-up-60 {
+  margin-top: 60px;
+}
+
+.margin-50 {
+  margin-top: 50px;
+}
+
+.margin-100 {
+  margin-top: 100px;
+}
+
+.margin-200 {
+  margin-top: 200px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+
+  &.row {
+    flex-direction: row;
+  }
+
+  &.wrap {
+    flex-wrap: wrap;
+  }
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.pad-20 {
+  padding-left: 20px;
+}
+
+.pad-50 {
+  padding-left: 50px;
+}
+
+// Padding utilities
+
+.padding-50 {
+  padding: 50px;
+}
+
+.padding-v-50 {
+  padding: 50px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
